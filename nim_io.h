@@ -4,6 +4,12 @@
 
 #ifndef JEU_NIM_NIM_IO_H
 #define JEU_NIM_NIM_IO_H
+
+#endif //JEU_NIM_NIM_IO_H
+
+extern int const plateauConstant [20];
+
+
 /*
 Demande à l'usager de saisir un entier entre les bornes min et max
 (inclusivement). La fonction doit valider la saisie et redemander à l'usager
@@ -42,4 +48,3 @@ nouvelle configuration du plateau de jeu.
  */
 void demarrer_jeu(double difficulte);
 
-#endif //JEU_NIM_NIM_IO_H

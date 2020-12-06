@@ -5,6 +5,11 @@
 #ifndef JEU_NIM_NIM_H
 #define JEU_NIM_NIM_H
 
+#define PLATEAU_MAX_COLONNES 20
+#define PLATEAU_MAX_PIECES 35
+
+#endif //JEU_NIM_NIM_H
+
 /*
 Initialise le plateau de jeu en remplissant les nb_colonnes d'un nombre
 aléatoire de pièces entre 1 et PLATEAU_MAX_PIECES=35.
@@ -55,4 +60,3 @@ puis au hasard le nombre de pièces à jouer de cette colonne.
 void nim_choix_ia_aleatoire(const int plateau[], int nb_colonnes,
                             int * choix_colonne, int * choix_nb_pieces);
 
-#endif //JEU_NIM_NIM_H

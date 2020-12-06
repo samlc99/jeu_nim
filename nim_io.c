@@ -2,8 +2,11 @@
 // Created by Samuel Lavigne-Cloutier on 2020-12-05.
 //
 
-#include "nim_io.h"
+#include "nim.h"
 #include "nim_ihm.h"
+#include "nim_io.h"
+
+
 
 int lire_entier(int min, int max){
     int entier;
@@ -28,6 +31,8 @@ void plateau_afficher(const int plateau[], int nb_colonnes){
 
 void tour_humain(int plateau[], int nb_colonnes){
 
+    //plateau = plateau;
+
 }
 
 void tour_ia(int plateau[], int nb_colonnes, double difficulte){
@@ -35,5 +40,6 @@ void tour_ia(int plateau[], int nb_colonnes, double difficulte){
 }
 
 void demarrer_jeu(double difficulte){
-
+    ihm_changer_taille_plateau (30,6);
+    //nim_plateau_init (plateauConstant,6);
 }

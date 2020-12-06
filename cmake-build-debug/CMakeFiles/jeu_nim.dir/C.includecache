@@ -34,10 +34,6 @@ _mingw.h
 stddef.h
 -
 
-C:/MinGW/include/math.h
-_mingw.h
--
-
 C:/MinGW/include/msvcrtver.h
 _mingw.h
 -
@@ -194,23 +190,13 @@ _mingw.h
 stddef.h
 -
 
-G:/My Drive/TCH009/real nim/jeu_nim/m_distributions.h
-stdlib.h
--
-math.h
--
-time.h
--
-
-G:/My Drive/TCH009/real nim/jeu_nim/nim.c
-nim.h
-G:/My Drive/TCH009/real nim/jeu_nim/nim.h
+G:/My Drive/TCH009/real nim/jeu_nim/codage_numerique.c
+codage_numerique.h
+G:/My Drive/TCH009/real nim/jeu_nim/codage_numerique.h
 nim_ihm.h
 G:/My Drive/TCH009/real nim/jeu_nim/nim_ihm.h
-m_distributions.h
-G:/My Drive/TCH009/real nim/jeu_nim/m_distributions.h
 
-G:/My Drive/TCH009/real nim/jeu_nim/nim.h
+G:/My Drive/TCH009/real nim/jeu_nim/codage_numerique.h
 
 G:/My Drive/TCH009/real nim/jeu_nim/nim_ihm.h
 ncurses/curses.h

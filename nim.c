@@ -4,15 +4,18 @@
 
 #include "nim.h"
 #include "nim_ihm.h"
+#include "nim_io.h"
 #include "m_distributions.h"
 
 
-int const plateau [20];
+
+
 
 void nim_plateau_init(int plateau[], int nb_colonnes){
 
     for(int i = 0; i<nb_colonnes; i++){
         plateau[i]= md_randi(35);
+        //plateauConstant = plateau;
     }
 
 }
