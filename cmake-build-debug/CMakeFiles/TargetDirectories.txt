@@ -1,0 +1,3 @@
+G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/CMakeFiles/jeu_nim.dir
+G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/CMakeFiles/rebuild_cache.dir

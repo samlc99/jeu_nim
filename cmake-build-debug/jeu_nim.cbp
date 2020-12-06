@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jeu_nim"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jeu_nim">
+				<Option output="G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/jeu_nim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 jeu_nim"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jeu_nim/fast">
+				<Option output="G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/jeu_nim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/MinGW/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 jeu_nim/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;G:/My Drive/TCH009/real nim/jeu_nim/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/codage_numerique.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/codage_numerique.h">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/codage_numerique_test.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/m_distributions.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/m_distributions.h">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/main.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/nim.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/nim.h">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/nim_ihm.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/nim_ihm.h">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/nim_io.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/nim_io.h">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/nim_test.c">
+			<Option target="jeu_nim"/>
+		</Unit>
+		<Unit filename="G:/My Drive/TCH009/real nim/jeu_nim/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
