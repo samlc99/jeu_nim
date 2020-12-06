@@ -155,4 +155,7 @@ Retour: Aucun
 */
 int ihm_scanf(const char* format, void* address);
 
+int ihm_get_nombre_colonnes ();
+
+int ihm_get_nombre_lignes ();
 #endif

@@ -7,22 +7,27 @@
 #include "nim_io.h"
 #include "m_distributions.h"
 
-
-
+int plateau [20];
+int difficulte;
 
 
 void nim_plateau_init(int plateau[], int nb_colonnes){
 
     for(int i = 0; i<nb_colonnes; i++){
         plateau[i]= md_randi(35);
-        //plateauConstant = plateau;
     }
 
 }
 
+int *nim_get_plateau(){
+    return plateau;
+}
+
 int nim_qui_commence(void){
 
-    return md_randint(0,1);
+    if(md_randint(0,1))
+        return JOUEUR_IA;
+    else return JOUEUR_HUMAIN;
 
 }
 
@@ -60,9 +65,14 @@ void nim_choix_ia(const int plateau[], int nb_colonnes, double difficulte,
 
     nim_choix_ia_aleatoire(plateau, nb_colonnes, choix_colonne, choix_nb_pieces);
 
+
 }
 
 void nim_choix_ia_aleatoire(const int plateau[], int nb_colonnes,
                             int * choix_colonne, int * choix_nb_pieces){
 
+}
+
+void nim_maj_plateau(){
+    plateau_afficher(plateau,ihm_get_nombre_colonnes);
 }

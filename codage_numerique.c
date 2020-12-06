@@ -31,3 +31,26 @@ int codage_inverser_tab_bits(int tab_bits[], int nb_bits) {
 
 
 }
+
+int codage_dec2bin(int nombre, int resultat[]){
+    int nb_bit_necessaire;
+    while (nombre > 0) {
+        for (int nb_bits = 0; nb_bits < CODAGE_NB_BITS; nb_bits++) {
+            if (nombre % 2 == 0) {
+                resultat[nb_bits] = 0;
+                nombre /= 2;
+            } else if (nombre % 2 == 1) {
+                resultat[nb_bits] = 1;
+                nombre /= 2;
+                nb_bit_necessaire = nb_bits + 1;
+            }
+        }
+        codage_inverser_tab_bits(resultat, CODAGE_NB_BITS);
+
+    }
+    if (nb_bit_necessaire > CODAGE_NB_BITS) {
+        return 0;
+    }
+    return nb_bit_necessaire;
+
+}

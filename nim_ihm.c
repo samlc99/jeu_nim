@@ -349,3 +349,11 @@ int ihm_scanf(const char* format, void* address)
 
     return 1;
 }
+
+int ihm_get_nombre_colonnes (){
+    return nb_colonnes;
+}
+
+int ihm_nombre_lignes (){
+    return nb_lignes;
+}

@@ -7,6 +7,8 @@
 
 #define PLATEAU_MAX_COLONNES 20
 #define PLATEAU_MAX_PIECES 35
+#define JOUEUR_HUMAIN 0
+#define JOUEUR_IA 1
 
 #endif //JEU_NIM_NIM_H
 
@@ -60,3 +62,16 @@ puis au hasard le nombre de pièces à jouer de cette colonne.
 void nim_choix_ia_aleatoire(const int plateau[], int nb_colonnes,
                             int * choix_colonne, int * choix_nb_pieces);
 
+/* Fonction NIM_TESTER
+ * Effectue les tests de toutes les fonctions du fichier NIM.C
+ */
+
+void nim_tester ();
+
+/* Fonction NIM_GET_PLATEAU
+ * retourne le pointeur correspondant au tableau du plateau de jeu
+ * */
+
+int *nim_get_plateau();
+
+void nim_maj_plateau();

@@ -7,7 +7,7 @@
 
 #endif //JEU_NIM_NIM_IO_H
 
-extern int const plateauConstant [20];
+
 
 
 /*

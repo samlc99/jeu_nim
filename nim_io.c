@@ -7,7 +7,6 @@
 #include "nim_io.h"
 
 
-
 int lire_entier(int min, int max){
     int entier;
 
@@ -15,8 +14,8 @@ int lire_entier(int min, int max){
     ihm_scanf("%d", &entier);
 
     while(entier < min || entier > max){
-        printf("Avec toute votre gentillesse, veuillez s'il vous plait entrez une valeur ENTRE %d et %d\n", min, max);
-        scanf("%d", &entier);
+        ihm_printf("Avec toute votre gentillesse, veuillez s'il vous plait entrez une valeur ENTRE %d et %d\n", min, max);
+        ihm_scanf("%d", &entier);
     }
 
 }
@@ -24,7 +23,9 @@ int lire_entier(int min, int max){
 void plateau_afficher(const int plateau[], int nb_colonnes){
 
     for(int i = 0; i<nb_colonnes; i++){
-
+        for (int j = 0; j < plateau[i]; j++) {
+            ihm_ajouter_piece(j,i);
+        }
     }
 
 }
@@ -40,6 +41,10 @@ void tour_ia(int plateau[], int nb_colonnes, double difficulte){
 }
 
 void demarrer_jeu(double difficulte){
-    ihm_changer_taille_plateau (30,6);
-    //nim_plateau_init (plateauConstant,6);
+    ihm_printf("Avec combien de lignes voulez-vous jouer? (max %d)",PLATEAU_MAX_PIECES);
+    int nbLignes = lire_entier(1,PLATEAU_MAX_PIECES);
+    ihm_printf("Avec combien de colonnes voulez-vous jouer? (max %d)",PLATEAU_MAX_COLONNES);
+    int nbColonnes = lire_entier(1,PLATEAU_MAX_PIECES);
+    ihm_changer_taille_plateau ((nbLignes+1),(nbColonnes+1));
+    nim_plateau_init (plateau,6);
 }
